@@ -109,7 +109,8 @@ const styles = StyleSheet.create({
     width: 170,
     height:150,
     // backgroundColor:'#fffee0',
-    backgroundColor: '#ebe9e6',
+    // backgroundColor: '#ebe9e6',
+    backgroundColor:'#fcf2e6',
     borderRadius: 10,
     padding: 16,
     marginBottom: 16,
@@ -121,7 +122,7 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.2,
     shadowRadius: 2,
-    elevation: 3,
+    elevation: 63,
   },
   image: {
     width: 50,
