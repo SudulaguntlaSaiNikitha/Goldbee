@@ -10,8 +10,8 @@ function Navigation() {
     return (
         <NavigationContainer>
             <Tab.Navigator>
-                <Tab.Screen name="Home" component={HomeScreen} />
-                <Tab.Screen name="Partner Brands" component={PartnerBrands} />
+                <Tab.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+                <Tab.Screen name="Partner Brands" component={PartnerBrands} options={{ headerShown: false }} />
             </Tab.Navigator>
         </NavigationContainer>
 
